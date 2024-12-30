@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  background: aqua;
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  /* margin-left: 20px;
+  margin-top: 20px; */
+}
+.main {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.sec {
+  background: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* Position= Absolute */
+.child {
+  background: plum;
+  width: 100px;
+  height: 100px;
+  left: auto;
+  right: 0;
+  position: absolute;
+  z-index: 3;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+/* Static Position hole Z-index not working */
+
+.child2 {
+  background: green;
+  width: 150px;
+  height: 150px;
+  left: auto;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+}
+.child3 {
+  background: rgb(130, 31, 105);
+  width: 200px;
+  height: 200px;
+  left: auto;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}

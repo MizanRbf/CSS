@@ -1,0 +1,83 @@
+/* 
+Float= None
+Float= Left
+Float= Right
+Float= Inherit
+*/
+.div {
+  background: black;
+  color: rgb(192, 204, 169);
+  padding: 20px 1%;
+  width: 30%;
+  margin-bottom: 20px;
+  /* overflow: hidden; */
+  float: right;
+  float: left;
+  margin-left: 5px;
+ }
+ /* img {
+  float: none;
+  float: left;
+  float: none;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin: 0 auto 20px;
+  display: block;
+ } */
+  /* 
+  When we use Float Left Right we have to use Overflow Auto in Parent Div
+  */
+img {
+  float: left;
+  float: right;
+  float: none;
+  margin: 0 auto;
+  display: block;
+  float: inherit;
+}
+.parent {
+  border: 5px solid tomato;
+  overflow: auto;
+}
+#nav {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+  background: blueviolet;
+  overflow: hidden;
+
+}
+#nav li {
+  float: left;
+}
+#nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+}
+#nav li a:hover {
+  background: green;
+  
+}
+
+/* Making Nav by Display Property And This is Good Practice */
+
+#display {
+  background: green;
+  margin: 0 0 15;
+  padding: 0;
+  list-style: none;
+}
+#display li {
+  display: inline-block;
+}
+#display li a {
+  display: block;
+  color: white;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+#display li a:hover {
+  background: red;
+}

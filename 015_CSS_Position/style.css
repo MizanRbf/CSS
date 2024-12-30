@@ -1,0 +1,63 @@
+* {
+ margin: 0;
+}
+
+/* Position= Static */
+
+div {
+  background: aqua;
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  /* margin-left: 20px;
+  margin-top: 20px; */
+}
+
+/* Position= Relative */
+
+.main {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.sec {
+  background: blueviolet;
+}
+
+/* Position= Absolute */
+.child {
+  background: plum;
+  width: 100px;
+  height: 100px;
+  left: auto;
+  right: 0;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+/* Position= Fixed*/
+.third {
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+/* Position= Sticky */
+.forth {
+  background: gold;
+  width: 100%;
+  height: 100px;
+  Position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}

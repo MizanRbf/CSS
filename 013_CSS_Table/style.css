@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  border: 1px solid tomato;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+th {
+  height: 60px;
+  text-align: left;
+  background: tomato;
+  color: aliceblue;
+}
+td {
+  background: yellowgreen;
+  color: white;
+  height: 60px;
+  vertical-align: top;
+  vertical-align: bottom;
+}
+tr:hover th, tr:hover td {
+  background: gold;
+}
+tr:hover td {
+  background: red;
+}
+div {
+  width: 450px;
+  /*height: 100px;*/
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: scroll;
+}

@@ -1,0 +1,23 @@
+/* 
+Overflow= Visible
+Overflow= Hidden
+Overflow= Scroll
+Overflow= Auto
+ */
+ div {
+  background: black;
+  color: rgb(192, 204, 169);
+  padding: 20px 5%;
+  overflow: visible;
+  overflow: hidden;
+  overflow: auto;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: scroll;
+  width: 90%;
+  width:500px;
+  height: 300px;
+ }
+ p {
+  width: 600px;
+ }

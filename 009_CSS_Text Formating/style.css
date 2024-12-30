@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: coral;
+  /*background: chocolate;*/
+  text-align: center;
+  text-align: left;
+}
+p {
+  margin-bottom: 20px;
+}
+
+/*text align last*/
+.one {
+  text-align-last: center;
+  text-align-last: right;
+  text-align-last: left;
+}
+
+/*text align*/
+.two {
+  /*margin-top: 20px;*/
+  text-align: center;
+}
+
+/* Direction*/
+.three {
+  direction: ltr;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* Vertical Align*/
+.baseline {
+  vertical-align: baseline;
+}
+.text-top {
+  vertical-align: text-top;
+}
+.text-bottom {
+  vertical-align: text-bottom;
+}
+.sub {
+  vertical-align: sub;
+}
+.sup {
+  vertical-align: sup;
+}
+
+/* Text Decoration*/
+a {
+  text-decoration: none;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: underline overline;
+}
+
+/* Text Transform */
+h2 {
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+/* Text Indent */
+p {
+  text-indent: 50px;
+}
+/* Letter Spacing */
+h2 {
+ /* letter-spacing: -2px;*/
+}
+/* Word Space */
+p {
+  word-spacing: 10px;
+}
+
+/* Line Height */
+p {
+  line-height: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+/* White Space */
+p {
+  white-space: nowrap;
+  white-space: break-spaces;
+}
+
+/* Text Shadow */
+h2 {
+  text-shadow: 10px 10px 10px red;
+
+}

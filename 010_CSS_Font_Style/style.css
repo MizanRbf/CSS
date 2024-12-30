@@ -1,0 +1,46 @@
+/*Font Family/ Category */
+h1 {
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+/* Serif Font */
+  font-family: 'Times New Roman';
+  font-family: 'Georgia';
+
+/* Sans-serif Font*/
+  font-family: 'Arial', sans-serif;
+  font-family: Verdana;
+
+/* Monospace Font */
+  font-family: 'Courier New';
+
+/* Cursive Font */
+  font-family: 'Brush Script MT';
+
+/* Fantasy Font */
+  font-family: 'Papyrus';
+}
+
+/* Font Size */
+/* 1em = 16px */
+h2 {
+  font-size: 50px;
+  font-size: 3em;
+/* font-size: 100%; */
+
+/* Font Style */
+  font-style: normal;
+  font-style: italic;
+  font-style: oblique;
+
+/* Font Weight */  
+  font-weight: normal;
+  font-weight: bold;
+/* I can't use font weight from Google Fonts */
+}
+h3 {
+/*  font-size: 100%; */
+}

@@ -1,0 +1,50 @@
+/*
+h1 => Selector
+color => Property
+green => Value
+* => Universal Selector
+. => Class Selector
+# => ID Selector
+, => Group
+*/
+* {
+  margin: 0px;
+  color: white;
+  padding: 0px;
+}
+h1 {
+  color: green; /* => Declaration */  font-size: 20px; /* => Declaration */
+}
+p {
+  color: blue;
+  font-size: 15px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin-bottom: 10px;
+}
+div p {
+  color:aliceblue;
+}
+.one,
+.five {
+  color: aqua;
+  text-align: center;
+}
+.two {
+  color: gainsboro;
+}
+.three {
+  background: blue;
+}
+#four {
+  width: 400px;
+}
+h4 {
+  text-align: center;
+  color: bisque;
+  background: green;
+  padding: 0px 10px;
+}
