@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", san-serif;
+  margin: 0;
+}
+#main_menu {
+  background: rgb(58, 19, 131);
+}
+#main_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#main_menu li {
+  display: inline-block;
+  position: relative;
+}
+#main_menu li a {
+  display: block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+#main_menu li a:hover {
+  background: rgb(15, 156, 153);
+}
+
+/* Dropdown Menu Style */
+
+#main_menu ul ul {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  background:rgb(58, 19, 131);
+  width: 200px;
+  display: none;
+  z-index: 999;
+}
+#main_menu ul ul li {
+  display: block;
+}
+#main_menu ul li:hover ul {
+  display: block;
+}
+#main_menu ul li:hover li a {
+  background: none;
+}
+#main_menu ul ul li a:hover {
+  background:rgb(109, 119, 109);
+}
